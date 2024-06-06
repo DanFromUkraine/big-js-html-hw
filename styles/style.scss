@@ -141,14 +141,12 @@ wrapper {
     }
   }
 .two-people {
-  width:max-content;
-  height: 562px;
+  width: 100%;
+  height: auto;
 }
   .two-people img {
-    width: max-content;
-    height: fit-content;
-    // display: flex;
-    // justify-self: center;
+    width: 100%;
+    height: auto;
   }
 
   .new_sneakers {
@@ -487,7 +485,15 @@ wrapper {
   }
 }
 
+.rotateRight {
+  transform: rotate(30deg);
+  transition: 3s;
+}
+.rotateLeft {
+  transform: rotate(-30deg);
+  transition: 3s;
 
+}
 
 
 

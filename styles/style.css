@@ -139,15 +139,12 @@ wrapper .info-cont info a span {
   text-transform: none;
 }
 wrapper .two-people {
-  width: -moz-max-content;
-  width: max-content;
-  height: 562px;
+  width: 100%;
+  height: auto;
 }
 wrapper .two-people img {
-  width: -moz-max-content;
-  width: max-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 100%;
+  height: auto;
 }
 wrapper .new_sneakers {
   display: flex;
@@ -507,4 +504,14 @@ wrapper footer bottom ul li {
 }
 .cart_wrapper .cart_module .cart_items .cart_card p {
   font-size: clamp(1.0625rem, 1.5759rem - 0.5348vw, 1.3125rem);
+}
+
+.rotateRight {
+  transform: rotate(30deg);
+  transition: 3s;
+}
+
+.rotateLeft {
+  transform: rotate(-30deg);
+  transition: 3s;
 }/*# sourceMappingURL=style.css.map */
